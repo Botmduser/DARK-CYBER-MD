@@ -29,7 +29,7 @@ cmd({
             title = search.videos[0].title;
         }
 
-        await reply("⏳ Downloading audio...");
+        await reply("*_⏳ Downloading audio..._*");
 
         // Use API to get audio
         const apiUrl = `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`;
