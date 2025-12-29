@@ -44,7 +44,7 @@ cmd({
             ptt: false
         }, { quoted: mek });
 
-        await reply(`✅ *${title}* > *downloaded successfully!*`);
+        await reply(`✅ *${title}*  🩵 downloaded successfully ! 🩵`);
 
     } catch (error) {
         console.error(error);
