@@ -1,18 +1,18 @@
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "happy",
+    pattern: "hashu",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
-    react: "😂",
+    react: "❤️",
     filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
     try {
         const loadingMessage = await conn.sendMessage(from, { text: '😂' });
         const emojiMessages = [
-            "😃", "😄", "😁", "😊", "😎", "🥳",
-            "😸", "😹", "🌞", "🌈", "😃", "😄",
+            "H", "A", "S", "H", "A", "N",
+            "S", "A", "W", "A", "N", "I",
             "😁", "😊", "😎", "🥳", "😸", "😹",
             "🌞", "🌈", "😃", "😄", "😁", "😊"
         ];
